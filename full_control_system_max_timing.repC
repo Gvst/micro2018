@@ -1,0 +1,767 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nworst 3
+        -greater_path 0.00
+        -max_paths 20
+Design : full_control_system
+Version: J-2014.09-SP5
+Date   : Thu Mar 15 11:28:29 2018
+****************************************
+
+Operating Conditions: ff_typical_min_0p99v_m40c   Library: sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+Wire Load Model Mode: top
+
+  Startpoint: DUT_SM16_adjuster/rst_reg[0]
+              (rising edge-triggered flip-flop clocked by clk_sm)
+  Endpoint: clk_controller_reg
+            (rising edge-triggered flip-flop clocked by clk_sm)
+  Path Group: clk_sm
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  full_control_system Small                sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk_sm (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  DUT_SM16_adjuster/rst_reg[0]/CK (DFFQ_X1M_A9TR)         0.00       0.00 r
+  DUT_SM16_adjuster/rst_reg[0]/Q (DFFQ_X1M_A9TR)          0.16       0.16 r
+  U639/Y (BUFH_X1M_A9TR)                                  0.13       0.30 r
+  U1394/Y (AND3_X0P7M_A9TR)                               0.05       0.35 r
+  U1395/Y (NAND2_X0P5A_A9TR)                              0.04       0.39 f
+  U1397/Y (NAND2B_X0P5M_A9TR)                             0.03       0.42 f
+  U1398/Y (XNOR2_X0P7M_A9TR)                              0.04       0.46 f
+  U1400/Y (NOR3_X0P7A_A9TR)                               0.07       0.53 r
+  U1726/Y (XOR2_X0P7M_A9TR)                               0.04       0.56 r
+  clk_controller_reg/D (DFFQ_X1M_A9TR)                    0.00       0.56 r
+  data arrival time                                                  0.56
+
+  clock clk_sm (rise edge)                             1500.00    1500.00
+  clock network delay (ideal)                             0.00    1500.00
+  clk_controller_reg/CK (DFFQ_X1M_A9TR)                   0.00    1500.00 r
+  library setup time                                     -0.01    1499.99
+  data required time                                              1499.99
+  --------------------------------------------------------------------------
+  data required time                                              1499.99
+  data arrival time                                                 -0.56
+  --------------------------------------------------------------------------
+  slack (MET)                                                     1499.42
+
+
+  Startpoint: DUT_SM16_adjuster/rst_reg[0]
+              (rising edge-triggered flip-flop clocked by clk_sm)
+  Endpoint: clk_controller_reg
+            (rising edge-triggered flip-flop clocked by clk_sm)
+  Path Group: clk_sm
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  full_control_system Small                sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk_sm (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  DUT_SM16_adjuster/rst_reg[0]/CK (DFFQ_X1M_A9TR)         0.00       0.00 r
+  DUT_SM16_adjuster/rst_reg[0]/Q (DFFQ_X1M_A9TR)          0.16       0.16 r
+  U639/Y (BUFH_X1M_A9TR)                                  0.13       0.30 r
+  U1394/Y (AND3_X0P7M_A9TR)                               0.05       0.35 r
+  U1395/Y (NAND2_X0P5A_A9TR)                              0.04       0.39 f
+  U1397/Y (NAND2B_X0P5M_A9TR)                             0.03       0.42 f
+  U1398/Y (XNOR2_X0P7M_A9TR)                              0.04       0.46 f
+  U1400/Y (NOR3_X0P7A_A9TR)                               0.07       0.53 r
+  U1726/Y (XOR2_X0P7M_A9TR)                               0.03       0.56 f
+  clk_controller_reg/D (DFFQ_X1M_A9TR)                    0.00       0.56 f
+  data arrival time                                                  0.56
+
+  clock clk_sm (rise edge)                             1500.00    1500.00
+  clock network delay (ideal)                             0.00    1500.00
+  clk_controller_reg/CK (DFFQ_X1M_A9TR)                   0.00    1500.00 r
+  library setup time                                     -0.01    1499.99
+  data required time                                              1499.99
+  --------------------------------------------------------------------------
+  data required time                                              1499.99
+  data arrival time                                                 -0.56
+  --------------------------------------------------------------------------
+  slack (MET)                                                     1499.43
+
+
+  Startpoint: DUT_SM16_adjuster/rst_reg[0]
+              (rising edge-triggered flip-flop clocked by clk_sm)
+  Endpoint: counter_reg[1]
+            (rising edge-triggered flip-flop clocked by clk_sm)
+  Path Group: clk_sm
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  full_control_system Small                sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk_sm (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  DUT_SM16_adjuster/rst_reg[0]/CK (DFFQ_X1M_A9TR)         0.00       0.00 r
+  DUT_SM16_adjuster/rst_reg[0]/Q (DFFQ_X1M_A9TR)          0.16       0.16 r
+  U639/Y (BUFH_X1M_A9TR)                                  0.13       0.30 r
+  U1394/Y (AND3_X0P7M_A9TR)                               0.05       0.35 r
+  U1395/Y (NAND2_X0P5A_A9TR)                              0.04       0.39 f
+  U1397/Y (NAND2B_X0P5M_A9TR)                             0.03       0.42 f
+  U1398/Y (XNOR2_X0P7M_A9TR)                              0.04       0.46 f
+  U1400/Y (NOR3_X0P7A_A9TR)                               0.07       0.53 r
+  U1401/Y (OA21A1OI2_X0P5M_A9TR)                          0.03       0.55 f
+  counter_reg[1]/D (DFFQ_X1M_A9TR)                        0.00       0.55 f
+  data arrival time                                                  0.55
+
+  clock clk_sm (rise edge)                             1500.00    1500.00
+  clock network delay (ideal)                             0.00    1500.00
+  counter_reg[1]/CK (DFFQ_X1M_A9TR)                       0.00    1500.00 r
+  library setup time                                     -0.01    1499.99
+  data required time                                              1499.99
+  --------------------------------------------------------------------------
+  data required time                                              1499.99
+  data arrival time                                                 -0.55
+  --------------------------------------------------------------------------
+  slack (MET)                                                     1499.43
+
+
+  Startpoint: DUT_SM16_adjuster/rst_reg[0]
+              (rising edge-triggered flip-flop clocked by clk_sm)
+  Endpoint: counter_reg[1]
+            (rising edge-triggered flip-flop clocked by clk_sm)
+  Path Group: clk_sm
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  full_control_system Small                sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk_sm (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  DUT_SM16_adjuster/rst_reg[0]/CK (DFFQ_X1M_A9TR)         0.00       0.00 r
+  DUT_SM16_adjuster/rst_reg[0]/Q (DFFQ_X1M_A9TR)          0.16       0.16 r
+  U639/Y (BUFH_X1M_A9TR)                                  0.13       0.30 r
+  U1394/Y (AND3_X0P7M_A9TR)                               0.05       0.35 r
+  U1395/Y (NAND2_X0P5A_A9TR)                              0.04       0.39 f
+  U1397/Y (NAND2B_X0P5M_A9TR)                             0.03       0.42 f
+  U1398/Y (XNOR2_X0P7M_A9TR)                              0.04       0.46 f
+  U1400/Y (NOR3_X0P7A_A9TR)                               0.07       0.53 r
+  U1401/Y (OA21A1OI2_X0P5M_A9TR)                          0.02       0.55 f
+  counter_reg[1]/D (DFFQ_X1M_A9TR)                        0.00       0.55 f
+  data arrival time                                                  0.55
+
+  clock clk_sm (rise edge)                             1500.00    1500.00
+  clock network delay (ideal)                             0.00    1500.00
+  counter_reg[1]/CK (DFFQ_X1M_A9TR)                       0.00    1500.00 r
+  library setup time                                     -0.01    1499.99
+  data required time                                              1499.99
+  --------------------------------------------------------------------------
+  data required time                                              1499.99
+  data arrival time                                                 -0.55
+  --------------------------------------------------------------------------
+  slack (MET)                                                     1499.43
+
+
+  Startpoint: DUT_SM16_adjuster/rst_reg[0]
+              (rising edge-triggered flip-flop clocked by clk_sm)
+  Endpoint: counter_reg[1]
+            (rising edge-triggered flip-flop clocked by clk_sm)
+  Path Group: clk_sm
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  full_control_system Small                sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk_sm (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  DUT_SM16_adjuster/rst_reg[0]/CK (DFFQ_X1M_A9TR)         0.00       0.00 r
+  DUT_SM16_adjuster/rst_reg[0]/Q (DFFQ_X1M_A9TR)          0.16       0.16 r
+  U639/Y (BUFH_X1M_A9TR)                                  0.13       0.30 r
+  U1394/Y (AND3_X0P7M_A9TR)                               0.05       0.35 r
+  U1395/Y (NAND2_X0P5A_A9TR)                              0.04       0.39 f
+  U1397/Y (NAND2B_X0P5M_A9TR)                             0.03       0.42 f
+  U1398/Y (XNOR2_X0P7M_A9TR)                              0.04       0.46 f
+  U1400/Y (NOR3_X0P7A_A9TR)                               0.07       0.53 r
+  U1401/Y (OA21A1OI2_X0P5M_A9TR)                          0.02       0.55 f
+  counter_reg[1]/D (DFFQ_X1M_A9TR)                        0.00       0.55 f
+  data arrival time                                                  0.55
+
+  clock clk_sm (rise edge)                             1500.00    1500.00
+  clock network delay (ideal)                             0.00    1500.00
+  counter_reg[1]/CK (DFFQ_X1M_A9TR)                       0.00    1500.00 r
+  library setup time                                     -0.01    1499.99
+  data required time                                              1499.99
+  --------------------------------------------------------------------------
+  data required time                                              1499.99
+  data arrival time                                                 -0.55
+  --------------------------------------------------------------------------
+  slack (MET)                                                     1499.43
+
+
+  Startpoint: DUT_SM16_adjuster/rst_reg[0]
+              (rising edge-triggered flip-flop clocked by clk_sm)
+  Endpoint: DUT_SM16_adjuster/remaining_reg[2]
+            (rising edge-triggered flip-flop clocked by clk_sm)
+  Path Group: clk_sm
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  full_control_system Small                sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk_sm (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  DUT_SM16_adjuster/rst_reg[0]/CK (DFFQ_X1M_A9TR)         0.00       0.00 r
+  DUT_SM16_adjuster/rst_reg[0]/Q (DFFQ_X1M_A9TR)          0.16       0.16 r
+  U639/Y (BUFH_X1M_A9TR)                                  0.13       0.30 r
+  U812/Y (NAND4BB_X0P5M_A9TR)                             0.11       0.41 f
+  U814/Y (INV_X0P7M_A9TR)                                 0.09       0.50 r
+  U1479/Y (NAND2_X0P5A_A9TR)                              0.03       0.52 f
+  U514/Y (AO21A1AI2_X0P7M_A9TR)                           0.03       0.55 r
+  DUT_SM16_adjuster/remaining_reg[2]/D (DFFQ_X4M_A9TR)     0.00      0.55 r
+  data arrival time                                                  0.55
+
+  clock clk_sm (rise edge)                             1500.00    1500.00
+  clock network delay (ideal)                             0.00    1500.00
+  DUT_SM16_adjuster/remaining_reg[2]/CK (DFFQ_X4M_A9TR)     0.00  1500.00 r
+  library setup time                                     -0.01    1499.99
+  data required time                                              1499.99
+  --------------------------------------------------------------------------
+  data required time                                              1499.99
+  data arrival time                                                 -0.55
+  --------------------------------------------------------------------------
+  slack (MET)                                                     1499.44
+
+
+  Startpoint: DUT_SM16_adjuster/rst_reg[0]
+              (rising edge-triggered flip-flop clocked by clk_sm)
+  Endpoint: DUT_SM14_adjuster/remaining_reg[2]
+            (rising edge-triggered flip-flop clocked by clk_sm)
+  Path Group: clk_sm
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  full_control_system Small                sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk_sm (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  DUT_SM16_adjuster/rst_reg[0]/CK (DFFQ_X1M_A9TR)         0.00       0.00 r
+  DUT_SM16_adjuster/rst_reg[0]/Q (DFFQ_X1M_A9TR)          0.16       0.16 r
+  U639/Y (BUFH_X1M_A9TR)                                  0.13       0.30 r
+  U790/Y (NAND4BB_X0P5M_A9TR)                             0.11       0.41 f
+  U792/Y (INV_X0P7M_A9TR)                                 0.09       0.50 r
+  U1473/Y (NAND2_X0P5A_A9TR)                              0.03       0.52 f
+  U512/Y (AO21A1AI2_X0P7M_A9TR)                           0.03       0.55 r
+  DUT_SM14_adjuster/remaining_reg[2]/D (DFFQ_X4M_A9TR)     0.00      0.55 r
+  data arrival time                                                  0.55
+
+  clock clk_sm (rise edge)                             1500.00    1500.00
+  clock network delay (ideal)                             0.00    1500.00
+  DUT_SM14_adjuster/remaining_reg[2]/CK (DFFQ_X4M_A9TR)     0.00  1500.00 r
+  library setup time                                     -0.01    1499.99
+  data required time                                              1499.99
+  --------------------------------------------------------------------------
+  data required time                                              1499.99
+  data arrival time                                                 -0.55
+  --------------------------------------------------------------------------
+  slack (MET)                                                     1499.44
+
+
+  Startpoint: DUT_SM16_adjuster/rst_reg[0]
+              (rising edge-triggered flip-flop clocked by clk_sm)
+  Endpoint: DUT_SM13_adjuster/remaining_reg[2]
+            (rising edge-triggered flip-flop clocked by clk_sm)
+  Path Group: clk_sm
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  full_control_system Small                sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk_sm (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  DUT_SM16_adjuster/rst_reg[0]/CK (DFFQ_X1M_A9TR)         0.00       0.00 r
+  DUT_SM16_adjuster/rst_reg[0]/Q (DFFQ_X1M_A9TR)          0.16       0.16 r
+  U639/Y (BUFH_X1M_A9TR)                                  0.13       0.30 r
+  U779/Y (NAND4BB_X0P5M_A9TR)                             0.11       0.41 f
+  U781/Y (INV_X0P7M_A9TR)                                 0.09       0.50 r
+  U1470/Y (NAND2_X0P5A_A9TR)                              0.03       0.52 f
+  U511/Y (AO21A1AI2_X0P7M_A9TR)                           0.03       0.55 r
+  DUT_SM13_adjuster/remaining_reg[2]/D (DFFQ_X4M_A9TR)     0.00      0.55 r
+  data arrival time                                                  0.55
+
+  clock clk_sm (rise edge)                             1500.00    1500.00
+  clock network delay (ideal)                             0.00    1500.00
+  DUT_SM13_adjuster/remaining_reg[2]/CK (DFFQ_X4M_A9TR)     0.00  1500.00 r
+  library setup time                                     -0.01    1499.99
+  data required time                                              1499.99
+  --------------------------------------------------------------------------
+  data required time                                              1499.99
+  data arrival time                                                 -0.55
+  --------------------------------------------------------------------------
+  slack (MET)                                                     1499.44
+
+
+  Startpoint: DUT_SM16_adjuster/rst_reg[0]
+              (rising edge-triggered flip-flop clocked by clk_sm)
+  Endpoint: DUT_SM10_adjuster/remaining_reg[2]
+            (rising edge-triggered flip-flop clocked by clk_sm)
+  Path Group: clk_sm
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  full_control_system Small                sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk_sm (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  DUT_SM16_adjuster/rst_reg[0]/CK (DFFQ_X1M_A9TR)         0.00       0.00 r
+  DUT_SM16_adjuster/rst_reg[0]/Q (DFFQ_X1M_A9TR)          0.16       0.16 r
+  U639/Y (BUFH_X1M_A9TR)                                  0.13       0.30 r
+  U745/Y (NAND4BB_X0P5M_A9TR)                             0.11       0.41 f
+  U747/Y (INV_X0P7M_A9TR)                                 0.09       0.50 r
+  U1461/Y (NAND2_X0P5A_A9TR)                              0.03       0.52 f
+  U516/Y (AO21A1AI2_X0P7M_A9TR)                           0.03       0.55 r
+  DUT_SM10_adjuster/remaining_reg[2]/D (DFFQ_X4M_A9TR)     0.00      0.55 r
+  data arrival time                                                  0.55
+
+  clock clk_sm (rise edge)                             1500.00    1500.00
+  clock network delay (ideal)                             0.00    1500.00
+  DUT_SM10_adjuster/remaining_reg[2]/CK (DFFQ_X4M_A9TR)     0.00  1500.00 r
+  library setup time                                     -0.01    1499.99
+  data required time                                              1499.99
+  --------------------------------------------------------------------------
+  data required time                                              1499.99
+  data arrival time                                                 -0.55
+  --------------------------------------------------------------------------
+  slack (MET)                                                     1499.44
+
+
+  Startpoint: DUT_SM16_adjuster/rst_reg[0]
+              (rising edge-triggered flip-flop clocked by clk_sm)
+  Endpoint: DUT_SM9_adjuster/remaining_reg[2]
+            (rising edge-triggered flip-flop clocked by clk_sm)
+  Path Group: clk_sm
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  full_control_system Small                sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk_sm (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  DUT_SM16_adjuster/rst_reg[0]/CK (DFFQ_X1M_A9TR)         0.00       0.00 r
+  DUT_SM16_adjuster/rst_reg[0]/Q (DFFQ_X1M_A9TR)          0.16       0.16 r
+  U639/Y (BUFH_X1M_A9TR)                                  0.13       0.30 r
+  U733/Y (NAND4BB_X0P5M_A9TR)                             0.11       0.41 f
+  U735/Y (INV_X0P7M_A9TR)                                 0.09       0.50 r
+  U1458/Y (NAND2_X0P5A_A9TR)                              0.03       0.52 f
+  U515/Y (AO21A1AI2_X0P7M_A9TR)                           0.03       0.55 r
+  DUT_SM9_adjuster/remaining_reg[2]/D (DFFQ_X4M_A9TR)     0.00       0.55 r
+  data arrival time                                                  0.55
+
+  clock clk_sm (rise edge)                             1500.00    1500.00
+  clock network delay (ideal)                             0.00    1500.00
+  DUT_SM9_adjuster/remaining_reg[2]/CK (DFFQ_X4M_A9TR)     0.00   1500.00 r
+  library setup time                                     -0.01    1499.99
+  data required time                                              1499.99
+  --------------------------------------------------------------------------
+  data required time                                              1499.99
+  data arrival time                                                 -0.55
+  --------------------------------------------------------------------------
+  slack (MET)                                                     1499.44
+
+
+  Startpoint: DUT_SM16_adjuster/rst_reg[0]
+              (rising edge-triggered flip-flop clocked by clk_sm)
+  Endpoint: DUT_SM12_adjuster/remaining_reg[2]
+            (rising edge-triggered flip-flop clocked by clk_sm)
+  Path Group: clk_sm
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  full_control_system Small                sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk_sm (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  DUT_SM16_adjuster/rst_reg[0]/CK (DFFQ_X1M_A9TR)         0.00       0.00 r
+  DUT_SM16_adjuster/rst_reg[0]/Q (DFFQ_X1M_A9TR)          0.16       0.16 r
+  U639/Y (BUFH_X1M_A9TR)                                  0.13       0.30 r
+  U768/Y (NAND4BB_X0P5M_A9TR)                             0.11       0.41 f
+  U770/Y (INV_X0P7M_A9TR)                                 0.09       0.50 r
+  U1467/Y (NAND2_X0P5A_A9TR)                              0.03       0.52 f
+  U518/Y (AO21A1AI2_X0P7M_A9TR)                           0.03       0.55 r
+  DUT_SM12_adjuster/remaining_reg[2]/D (DFFQ_X4M_A9TR)     0.00      0.55 r
+  data arrival time                                                  0.55
+
+  clock clk_sm (rise edge)                             1500.00    1500.00
+  clock network delay (ideal)                             0.00    1500.00
+  DUT_SM12_adjuster/remaining_reg[2]/CK (DFFQ_X4M_A9TR)     0.00  1500.00 r
+  library setup time                                     -0.01    1499.99
+  data required time                                              1499.99
+  --------------------------------------------------------------------------
+  data required time                                              1499.99
+  data arrival time                                                 -0.55
+  --------------------------------------------------------------------------
+  slack (MET)                                                     1499.44
+
+
+  Startpoint: DUT_SM16_adjuster/rst_reg[0]
+              (rising edge-triggered flip-flop clocked by clk_sm)
+  Endpoint: DUT_SM11_adjuster/remaining_reg[2]
+            (rising edge-triggered flip-flop clocked by clk_sm)
+  Path Group: clk_sm
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  full_control_system Small                sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk_sm (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  DUT_SM16_adjuster/rst_reg[0]/CK (DFFQ_X1M_A9TR)         0.00       0.00 r
+  DUT_SM16_adjuster/rst_reg[0]/Q (DFFQ_X1M_A9TR)          0.16       0.16 r
+  U639/Y (BUFH_X1M_A9TR)                                  0.13       0.30 r
+  U756/Y (NAND4BB_X0P5M_A9TR)                             0.11       0.41 f
+  U758/Y (INV_X0P7M_A9TR)                                 0.09       0.50 r
+  U1464/Y (NAND2_X0P5A_A9TR)                              0.03       0.52 f
+  U517/Y (AO21A1AI2_X0P7M_A9TR)                           0.03       0.55 r
+  DUT_SM11_adjuster/remaining_reg[2]/D (DFFQ_X4M_A9TR)     0.00      0.55 r
+  data arrival time                                                  0.55
+
+  clock clk_sm (rise edge)                             1500.00    1500.00
+  clock network delay (ideal)                             0.00    1500.00
+  DUT_SM11_adjuster/remaining_reg[2]/CK (DFFQ_X4M_A9TR)     0.00  1500.00 r
+  library setup time                                     -0.01    1499.99
+  data required time                                              1499.99
+  --------------------------------------------------------------------------
+  data required time                                              1499.99
+  data arrival time                                                 -0.55
+  --------------------------------------------------------------------------
+  slack (MET)                                                     1499.44
+
+
+  Startpoint: DUT_SM16_adjuster/rst_reg[0]
+              (rising edge-triggered flip-flop clocked by clk_sm)
+  Endpoint: DUT_SM7_adjuster/remaining_reg[2]
+            (rising edge-triggered flip-flop clocked by clk_sm)
+  Path Group: clk_sm
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  full_control_system Small                sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk_sm (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  DUT_SM16_adjuster/rst_reg[0]/CK (DFFQ_X1M_A9TR)         0.00       0.00 r
+  DUT_SM16_adjuster/rst_reg[0]/Q (DFFQ_X1M_A9TR)          0.16       0.16 r
+  U639/Y (BUFH_X1M_A9TR)                                  0.13       0.30 r
+  U710/Y (NAND4BB_X0P5M_A9TR)                             0.11       0.41 f
+  U712/Y (INV_X0P7M_A9TR)                                 0.09       0.50 r
+  U1452/Y (NAND2_X0P5A_A9TR)                              0.03       0.52 f
+  U521/Y (AO21A1AI2_X0P7M_A9TR)                           0.03       0.55 r
+  DUT_SM7_adjuster/remaining_reg[2]/D (DFFQ_X4M_A9TR)     0.00       0.55 r
+  data arrival time                                                  0.55
+
+  clock clk_sm (rise edge)                             1500.00    1500.00
+  clock network delay (ideal)                             0.00    1500.00
+  DUT_SM7_adjuster/remaining_reg[2]/CK (DFFQ_X4M_A9TR)     0.00   1500.00 r
+  library setup time                                     -0.01    1499.99
+  data required time                                              1499.99
+  --------------------------------------------------------------------------
+  data required time                                              1499.99
+  data arrival time                                                 -0.55
+  --------------------------------------------------------------------------
+  slack (MET)                                                     1499.44
+
+
+  Startpoint: DUT_SM16_adjuster/rst_reg[0]
+              (rising edge-triggered flip-flop clocked by clk_sm)
+  Endpoint: DUT_SM5_adjuster/remaining_reg[2]
+            (rising edge-triggered flip-flop clocked by clk_sm)
+  Path Group: clk_sm
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  full_control_system Small                sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk_sm (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  DUT_SM16_adjuster/rst_reg[0]/CK (DFFQ_X1M_A9TR)         0.00       0.00 r
+  DUT_SM16_adjuster/rst_reg[0]/Q (DFFQ_X1M_A9TR)          0.16       0.16 r
+  U639/Y (BUFH_X1M_A9TR)                                  0.13       0.30 r
+  U688/Y (NAND4BB_X0P5M_A9TR)                             0.11       0.41 f
+  U690/Y (INV_X0P7M_A9TR)                                 0.09       0.50 r
+  U1482/Y (NAND2_X0P5A_A9TR)                              0.03       0.52 f
+  U519/Y (AO21A1AI2_X0P7M_A9TR)                           0.03       0.55 r
+  DUT_SM5_adjuster/remaining_reg[2]/D (DFFQ_X4M_A9TR)     0.00       0.55 r
+  data arrival time                                                  0.55
+
+  clock clk_sm (rise edge)                             1500.00    1500.00
+  clock network delay (ideal)                             0.00    1500.00
+  DUT_SM5_adjuster/remaining_reg[2]/CK (DFFQ_X4M_A9TR)     0.00   1500.00 r
+  library setup time                                     -0.01    1499.99
+  data required time                                              1499.99
+  --------------------------------------------------------------------------
+  data required time                                              1499.99
+  data arrival time                                                 -0.55
+  --------------------------------------------------------------------------
+  slack (MET)                                                     1499.44
+
+
+  Startpoint: DUT_SM16_adjuster/rst_reg[0]
+              (rising edge-triggered flip-flop clocked by clk_sm)
+  Endpoint: DUT_SM1_adjuster/remaining_reg[2]
+            (rising edge-triggered flip-flop clocked by clk_sm)
+  Path Group: clk_sm
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  full_control_system Small                sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk_sm (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  DUT_SM16_adjuster/rst_reg[0]/CK (DFFQ_X1M_A9TR)         0.00       0.00 r
+  DUT_SM16_adjuster/rst_reg[0]/Q (DFFQ_X1M_A9TR)          0.16       0.16 r
+  U639/Y (BUFH_X1M_A9TR)                                  0.13       0.30 r
+  U641/Y (NAND4BB_X0P5M_A9TR)                             0.11       0.41 f
+  U643/Y (INV_X0P7M_A9TR)                                 0.09       0.50 r
+  U1497/Y (NAND2_X0P5A_A9TR)                              0.03       0.52 f
+  U523/Y (AO21A1AI2_X0P7M_A9TR)                           0.03       0.55 r
+  DUT_SM1_adjuster/remaining_reg[2]/D (DFFQ_X4M_A9TR)     0.00       0.55 r
+  data arrival time                                                  0.55
+
+  clock clk_sm (rise edge)                             1500.00    1500.00
+  clock network delay (ideal)                             0.00    1500.00
+  DUT_SM1_adjuster/remaining_reg[2]/CK (DFFQ_X4M_A9TR)     0.00   1500.00 r
+  library setup time                                     -0.01    1499.99
+  data required time                                              1499.99
+  --------------------------------------------------------------------------
+  data required time                                              1499.99
+  data arrival time                                                 -0.55
+  --------------------------------------------------------------------------
+  slack (MET)                                                     1499.44
+
+
+  Startpoint: DUT_SM16_adjuster/rst_reg[0]
+              (rising edge-triggered flip-flop clocked by clk_sm)
+  Endpoint: DUT_SM8_adjuster/remaining_reg[2]
+            (rising edge-triggered flip-flop clocked by clk_sm)
+  Path Group: clk_sm
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  full_control_system Small                sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk_sm (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  DUT_SM16_adjuster/rst_reg[0]/CK (DFFQ_X1M_A9TR)         0.00       0.00 r
+  DUT_SM16_adjuster/rst_reg[0]/Q (DFFQ_X1M_A9TR)          0.16       0.16 r
+  U639/Y (BUFH_X1M_A9TR)                                  0.13       0.30 r
+  U721/Y (NAND4BB_X0P5M_A9TR)                             0.11       0.41 f
+  U723/Y (INV_X0P7M_A9TR)                                 0.09       0.50 r
+  U1455/Y (NAND2_X0P5A_A9TR)                              0.03       0.52 f
+  U522/Y (AO21A1AI2_X0P7M_A9TR)                           0.03       0.55 r
+  DUT_SM8_adjuster/remaining_reg[2]/D (DFFQ_X4M_A9TR)     0.00       0.55 r
+  data arrival time                                                  0.55
+
+  clock clk_sm (rise edge)                             1500.00    1500.00
+  clock network delay (ideal)                             0.00    1500.00
+  DUT_SM8_adjuster/remaining_reg[2]/CK (DFFQ_X4M_A9TR)     0.00   1500.00 r
+  library setup time                                     -0.01    1499.99
+  data required time                                              1499.99
+  --------------------------------------------------------------------------
+  data required time                                              1499.99
+  data arrival time                                                 -0.55
+  --------------------------------------------------------------------------
+  slack (MET)                                                     1499.44
+
+
+  Startpoint: DUT_SM16_adjuster/rst_reg[0]
+              (rising edge-triggered flip-flop clocked by clk_sm)
+  Endpoint: DUT_SM1_adjuster/remaining_reg[1]
+            (rising edge-triggered flip-flop clocked by clk_sm)
+  Path Group: clk_sm
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  full_control_system Small                sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk_sm (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  DUT_SM16_adjuster/rst_reg[0]/CK (DFFQ_X1M_A9TR)         0.00       0.00 r
+  DUT_SM16_adjuster/rst_reg[0]/Q (DFFQ_X1M_A9TR)          0.16       0.16 r
+  U639/Y (BUFH_X1M_A9TR)                                  0.13       0.30 r
+  U641/Y (NAND4BB_X0P5M_A9TR)                             0.11       0.41 f
+  U643/Y (INV_X0P7M_A9TR)                                 0.09       0.50 r
+  U1549/Y (NAND2_X0P5A_A9TR)                              0.03       0.52 f
+  U571/Y (AO21A1AI2_X0P7M_A9TR)                           0.03       0.55 r
+  DUT_SM1_adjuster/remaining_reg[1]/D (DFFQ_X2M_A9TR)     0.00       0.55 r
+  data arrival time                                                  0.55
+
+  clock clk_sm (rise edge)                             1500.00    1500.00
+  clock network delay (ideal)                             0.00    1500.00
+  DUT_SM1_adjuster/remaining_reg[1]/CK (DFFQ_X2M_A9TR)     0.00   1500.00 r
+  library setup time                                     -0.01    1499.99
+  data required time                                              1499.99
+  --------------------------------------------------------------------------
+  data required time                                              1499.99
+  data arrival time                                                 -0.55
+  --------------------------------------------------------------------------
+  slack (MET)                                                     1499.44
+
+
+  Startpoint: DUT_SM16_adjuster/rst_reg[0]
+              (rising edge-triggered flip-flop clocked by clk_sm)
+  Endpoint: DUT_SM5_adjuster/remaining_reg[1]
+            (rising edge-triggered flip-flop clocked by clk_sm)
+  Path Group: clk_sm
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  full_control_system Small                sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk_sm (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  DUT_SM16_adjuster/rst_reg[0]/CK (DFFQ_X1M_A9TR)         0.00       0.00 r
+  DUT_SM16_adjuster/rst_reg[0]/Q (DFFQ_X1M_A9TR)          0.16       0.16 r
+  U639/Y (BUFH_X1M_A9TR)                                  0.13       0.30 r
+  U688/Y (NAND4BB_X0P5M_A9TR)                             0.11       0.41 f
+  U690/Y (INV_X0P7M_A9TR)                                 0.09       0.50 r
+  U1533/Y (NAND2_X0P5A_A9TR)                              0.03       0.52 f
+  U567/Y (AO21A1AI2_X0P7M_A9TR)                           0.03       0.55 r
+  DUT_SM5_adjuster/remaining_reg[1]/D (DFFQ_X2M_A9TR)     0.00       0.55 r
+  data arrival time                                                  0.55
+
+  clock clk_sm (rise edge)                             1500.00    1500.00
+  clock network delay (ideal)                             0.00    1500.00
+  DUT_SM5_adjuster/remaining_reg[1]/CK (DFFQ_X2M_A9TR)     0.00   1500.00 r
+  library setup time                                     -0.01    1499.99
+  data required time                                              1499.99
+  --------------------------------------------------------------------------
+  data required time                                              1499.99
+  data arrival time                                                 -0.55
+  --------------------------------------------------------------------------
+  slack (MET)                                                     1499.44
+
+
+  Startpoint: DUT_SM16_adjuster/rst_reg[0]
+              (rising edge-triggered flip-flop clocked by clk_sm)
+  Endpoint: DUT_SM7_adjuster/remaining_reg[1]
+            (rising edge-triggered flip-flop clocked by clk_sm)
+  Path Group: clk_sm
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  full_control_system Small                sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk_sm (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  DUT_SM16_adjuster/rst_reg[0]/CK (DFFQ_X1M_A9TR)         0.00       0.00 r
+  DUT_SM16_adjuster/rst_reg[0]/Q (DFFQ_X1M_A9TR)          0.16       0.16 r
+  U639/Y (BUFH_X1M_A9TR)                                  0.13       0.30 r
+  U710/Y (NAND4BB_X0P5M_A9TR)                             0.11       0.41 f
+  U712/Y (INV_X0P7M_A9TR)                                 0.09       0.50 r
+  U1525/Y (NAND2_X0P5A_A9TR)                              0.03       0.52 f
+  U569/Y (AO21A1AI2_X0P7M_A9TR)                           0.03       0.55 r
+  DUT_SM7_adjuster/remaining_reg[1]/D (DFFQ_X2M_A9TR)     0.00       0.55 r
+  data arrival time                                                  0.55
+
+  clock clk_sm (rise edge)                             1500.00    1500.00
+  clock network delay (ideal)                             0.00    1500.00
+  DUT_SM7_adjuster/remaining_reg[1]/CK (DFFQ_X2M_A9TR)     0.00   1500.00 r
+  library setup time                                     -0.01    1499.99
+  data required time                                              1499.99
+  --------------------------------------------------------------------------
+  data required time                                              1499.99
+  data arrival time                                                 -0.55
+  --------------------------------------------------------------------------
+  slack (MET)                                                     1499.44
+
+
+  Startpoint: DUT_SM16_adjuster/rst_reg[0]
+              (rising edge-triggered flip-flop clocked by clk_sm)
+  Endpoint: DUT_SM1_adjuster/remaining_reg[3]
+            (rising edge-triggered flip-flop clocked by clk_sm)
+  Path Group: clk_sm
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  full_control_system Small                sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk_sm (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  DUT_SM16_adjuster/rst_reg[0]/CK (DFFQ_X1M_A9TR)         0.00       0.00 r
+  DUT_SM16_adjuster/rst_reg[0]/Q (DFFQ_X1M_A9TR)          0.16       0.16 r
+  U639/Y (BUFH_X1M_A9TR)                                  0.13       0.30 r
+  U641/Y (NAND4BB_X0P5M_A9TR)                             0.11       0.41 f
+  U643/Y (INV_X0P7M_A9TR)                                 0.09       0.50 r
+  U1625/Y (NAND2_X0P5A_A9TR)                              0.03       0.52 f
+  U587/Y (AO21A1AI2_X0P7M_A9TR)                           0.03       0.55 r
+  DUT_SM1_adjuster/remaining_reg[3]/D (DFFQ_X2M_A9TR)     0.00       0.55 r
+  data arrival time                                                  0.55
+
+  clock clk_sm (rise edge)                             1500.00    1500.00
+  clock network delay (ideal)                             0.00    1500.00
+  DUT_SM1_adjuster/remaining_reg[3]/CK (DFFQ_X2M_A9TR)     0.00   1500.00 r
+  library setup time                                     -0.01    1499.99
+  data required time                                              1499.99
+  --------------------------------------------------------------------------
+  data required time                                              1499.99
+  data arrival time                                                 -0.55
+  --------------------------------------------------------------------------
+  slack (MET)                                                     1499.44
+
+
+1

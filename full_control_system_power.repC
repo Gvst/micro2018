@@ -1,0 +1,53 @@
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : full_control_system
+Version: J-2014.09-SP5
+Date   : Thu Mar 15 11:28:29 2018
+****************************************
+
+
+Library(s) Used:
+
+    sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c (File: /project/xzgroup/cktcad/kits/arm/tsmc/cln40g/sc9_base_rvt/r2p0/db/sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c.db)
+
+
+Operating Conditions: ff_typical_min_0p99v_m40c   Library: sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+full_control_system    Small             sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+
+
+Global Operating Voltage = 0.99 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1uW
+
+
+  Cell Internal Power  =   6.9521 uW    (1%)
+  Net Switching Power  = 753.0538 uW   (99%)
+                         ---------
+Total Dynamic Power    = 760.0059 uW  (100%)
+
+Cell Leakage Power     =  75.0571 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register       6.1837e-04        1.9748e-04           16.5890        1.7405e-02  (   2.08%)
+sequential     3.0542e-05            0.0000            8.1758        8.2063e-03  (   0.98%)
+combinational  6.3032e-03            0.7529           50.2923            0.8095  (  96.93%)
+--------------------------------------------------------------------------------------------------
+Total          6.9521e-03 mW         0.7531 mW        75.0571 uW         0.8351 mW
+1

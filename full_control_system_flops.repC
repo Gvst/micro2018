@@ -1,0 +1,659 @@
+ 
+****************************************
+Report : register
+Design : full_control_system
+Version: J-2014.09-SP5
+Date   : Thu Mar 15 11:28:29 2018
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+DUT_SM1_adjuster/remaining_reg[0]
+                          DFFQ_X3M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.309200  n
+DUT_SM1_adjuster/remaining_reg[1]
+                          DFFQ_X2M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.082400  n
+DUT_SM1_adjuster/remaining_reg[2]
+                          DFFQ_X4M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.536000  n
+DUT_SM1_adjuster/remaining_reg[3]
+                          DFFQ_X2M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.082400  n
+DUT_SM1_adjuster/remaining_reg[4]
+                          DFFQ_X2M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.082400  n
+DUT_SM1_adjuster/rst_reg[1]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_SM1_adjuster/rst_reg[2]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_SM1_adjuster/rst_reg[3]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_SM2_adjuster/remaining_reg[0]
+                          DFFQ_X3M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.309200  n
+DUT_SM2_adjuster/remaining_reg[1]
+                          DFFQ_X2M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.082400  n
+DUT_SM2_adjuster/remaining_reg[2]
+                          DFFQ_X4M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.536000  n
+DUT_SM2_adjuster/remaining_reg[3]
+                          DFFQ_X2M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.082400  n
+DUT_SM2_adjuster/remaining_reg[4]
+                          DFFQ_X2M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.082400  n
+DUT_SM2_adjuster/rst_reg[1]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_SM2_adjuster/rst_reg[2]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_SM2_adjuster/rst_reg[3]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_SM3_adjuster/remaining_reg[0]
+                          DFFQ_X3M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.309200  n
+DUT_SM3_adjuster/remaining_reg[1]
+                          DFFQ_X2M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.082400  n
+DUT_SM3_adjuster/remaining_reg[2]
+                          DFFQ_X4M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.536000  n
+DUT_SM3_adjuster/remaining_reg[3]
+                          DFFQ_X2M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.082400  n
+DUT_SM3_adjuster/remaining_reg[4]
+                          DFFQ_X2M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.082400  n
+DUT_SM3_adjuster/rst_reg[1]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_SM3_adjuster/rst_reg[2]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_SM3_adjuster/rst_reg[3]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_SM4_adjuster/remaining_reg[0]
+                          DFFQ_X3M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.309200  n
+DUT_SM4_adjuster/remaining_reg[1]
+                          DFFQ_X2M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.082400  n
+DUT_SM4_adjuster/remaining_reg[2]
+                          DFFQ_X4M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.536000  n
+DUT_SM4_adjuster/remaining_reg[3]
+                          DFFQ_X2M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.082400  n
+DUT_SM4_adjuster/remaining_reg[4]
+                          DFFQ_X2M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.082400  n
+DUT_SM4_adjuster/rst_reg[1]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_SM4_adjuster/rst_reg[2]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_SM4_adjuster/rst_reg[3]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_SM5_adjuster/remaining_reg[0]
+                          DFFQ_X4M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.536000  n
+DUT_SM5_adjuster/remaining_reg[1]
+                          DFFQ_X2M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.082400  n
+DUT_SM5_adjuster/remaining_reg[2]
+                          DFFQ_X4M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.536000  n
+DUT_SM5_adjuster/remaining_reg[3]
+                          DFFQ_X2M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.082400  n
+DUT_SM5_adjuster/remaining_reg[4]
+                          DFFQ_X2M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.082400  n
+DUT_SM5_adjuster/rst_reg[1]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_SM5_adjuster/rst_reg[2]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_SM5_adjuster/rst_reg[3]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_SM6_adjuster/remaining_reg[0]
+                          DFFQ_X3M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.309200  n
+DUT_SM6_adjuster/remaining_reg[1]
+                          DFFQ_X2M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.082400  n
+DUT_SM6_adjuster/remaining_reg[2]
+                          DFFQ_X4M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.536000  n
+DUT_SM6_adjuster/remaining_reg[3]
+                          DFFQ_X2M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.082400  n
+DUT_SM6_adjuster/remaining_reg[4]
+                          DFFQ_X2M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.082400  n
+DUT_SM6_adjuster/rst_reg[1]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_SM6_adjuster/rst_reg[2]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_SM6_adjuster/rst_reg[3]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_SM7_adjuster/remaining_reg[0]
+                          DFFQ_X3M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.309200  n
+DUT_SM7_adjuster/remaining_reg[1]
+                          DFFQ_X2M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.082400  n
+DUT_SM7_adjuster/remaining_reg[2]
+                          DFFQ_X4M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.536000  n
+DUT_SM7_adjuster/remaining_reg[3]
+                          DFFQ_X2M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.082400  n
+DUT_SM7_adjuster/remaining_reg[4]
+                          DFFQ_X2M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.082400  n
+DUT_SM7_adjuster/rst_reg[1]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_SM7_adjuster/rst_reg[2]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_SM7_adjuster/rst_reg[3]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_SM8_adjuster/remaining_reg[0]
+                          DFFQ_X3M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.309200  n
+DUT_SM8_adjuster/remaining_reg[1]
+                          DFFQ_X2M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.082400  n
+DUT_SM8_adjuster/remaining_reg[2]
+                          DFFQ_X4M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.536000  n
+DUT_SM8_adjuster/remaining_reg[3]
+                          DFFQ_X2M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.082400  n
+DUT_SM8_adjuster/remaining_reg[4]
+                          DFFQ_X2M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.082400  n
+DUT_SM8_adjuster/rst_reg[1]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_SM8_adjuster/rst_reg[2]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_SM8_adjuster/rst_reg[3]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_SM9_adjuster/remaining_reg[0]
+                          DFFQ_X3M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.309200  n
+DUT_SM9_adjuster/remaining_reg[1]
+                          DFFQ_X2M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.082400  n
+DUT_SM9_adjuster/remaining_reg[2]
+                          DFFQ_X4M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.536000  n
+DUT_SM9_adjuster/remaining_reg[3]
+                          DFFQ_X2M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.082400  n
+DUT_SM9_adjuster/remaining_reg[4]
+                          DFFQ_X2M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.082400  n
+DUT_SM9_adjuster/rst_reg[1]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_SM9_adjuster/rst_reg[2]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_SM9_adjuster/rst_reg[3]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_SM10_adjuster/remaining_reg[0]
+                          DFFQ_X4M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.536000  n
+DUT_SM10_adjuster/remaining_reg[1]
+                          DFFQ_X2M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.082400  n
+DUT_SM10_adjuster/remaining_reg[2]
+                          DFFQ_X4M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.536000  n
+DUT_SM10_adjuster/remaining_reg[3]
+                          DFFQ_X2M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.082400  n
+DUT_SM10_adjuster/remaining_reg[4]
+                          DFFQ_X2M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.082400  n
+DUT_SM10_adjuster/rst_reg[1]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_SM10_adjuster/rst_reg[2]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_SM10_adjuster/rst_reg[3]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_SM11_adjuster/remaining_reg[0]
+                          DFFQ_X3M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.309200  n
+DUT_SM11_adjuster/remaining_reg[1]
+                          DFFQ_X2M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.082400  n
+DUT_SM11_adjuster/remaining_reg[2]
+                          DFFQ_X4M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.536000  n
+DUT_SM11_adjuster/remaining_reg[3]
+                          DFFQ_X2M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.082400  n
+DUT_SM11_adjuster/remaining_reg[4]
+                          DFFQ_X2M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.082400  n
+DUT_SM11_adjuster/rst_reg[1]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_SM11_adjuster/rst_reg[2]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_SM11_adjuster/rst_reg[3]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_SM12_adjuster/remaining_reg[0]
+                          DFFQ_X4M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.536000  n
+DUT_SM12_adjuster/remaining_reg[1]
+                          DFFQ_X2M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.082400  n
+DUT_SM12_adjuster/remaining_reg[2]
+                          DFFQ_X4M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.536000  n
+DUT_SM12_adjuster/remaining_reg[3]
+                          DFFQ_X2M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.082400  n
+DUT_SM12_adjuster/remaining_reg[4]
+                          DFFQ_X2M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.082400  n
+DUT_SM12_adjuster/rst_reg[1]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_SM12_adjuster/rst_reg[2]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_SM12_adjuster/rst_reg[3]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_SM13_adjuster/remaining_reg[0]
+                          DFFQ_X3M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.309200  n
+DUT_SM13_adjuster/remaining_reg[1]
+                          DFFQ_X2M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.082400  n
+DUT_SM13_adjuster/remaining_reg[2]
+                          DFFQ_X4M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.536000  n
+DUT_SM13_adjuster/remaining_reg[3]
+                          DFFQ_X2M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.082400  n
+DUT_SM13_adjuster/remaining_reg[4]
+                          DFFQ_X2M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.082400  n
+DUT_SM13_adjuster/rst_reg[1]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_SM13_adjuster/rst_reg[2]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_SM13_adjuster/rst_reg[3]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_SM14_adjuster/remaining_reg[0]
+                          DFFQ_X3M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.309200  n
+DUT_SM14_adjuster/remaining_reg[1]
+                          DFFQ_X2M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.082400  n
+DUT_SM14_adjuster/remaining_reg[2]
+                          DFFQ_X4M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.536000  n
+DUT_SM14_adjuster/remaining_reg[3]
+                          DFFQ_X2M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.082400  n
+DUT_SM14_adjuster/remaining_reg[4]
+                          DFFQ_X2M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.082400  n
+DUT_SM14_adjuster/rst_reg[1]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_SM14_adjuster/rst_reg[2]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_SM14_adjuster/rst_reg[3]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_SM15_adjuster/remaining_reg[0]
+                          DFFQ_X3M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.309200  n
+DUT_SM15_adjuster/remaining_reg[1]
+                          DFFQ_X2M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.082400  n
+DUT_SM15_adjuster/remaining_reg[2]
+                          DFFQ_X4M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.536000  n
+DUT_SM15_adjuster/remaining_reg[3]
+                          DFFQ_X2M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.082400  n
+DUT_SM15_adjuster/remaining_reg[4]
+                          DFFQ_X2M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.082400  n
+DUT_SM15_adjuster/rst_reg[1]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_SM15_adjuster/rst_reg[2]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_SM15_adjuster/rst_reg[3]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_SM16_adjuster/remaining_reg[0]
+                          DFFQ_X3M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.309200  n
+DUT_SM16_adjuster/remaining_reg[1]
+                          DFFQ_X2M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.082400  n
+DUT_SM16_adjuster/remaining_reg[2]
+                          DFFQ_X4M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.536000  n
+DUT_SM16_adjuster/remaining_reg[3]
+                          DFFQ_X2M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.082400  n
+DUT_SM16_adjuster/remaining_reg[4]
+                          DFFQ_X2M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          4.082400  n
+DUT_SM16_adjuster/rst_reg[0]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_SM16_adjuster/rst_reg[1]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_SM16_adjuster/rst_reg[2]
+                          DFFQN_X1M_A9TR  sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_SM16_adjuster/rst_reg[3]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM1_issue_width_10_cycle_reg[0]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM1_issue_width_10_cycle_reg[1]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM1_issue_width_10_cycle_reg[2]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM1_issue_width_10_cycle_reg[3]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM1_issue_width_10_cycle_reg[4]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM2_issue_width_10_cycle_reg[0]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM2_issue_width_10_cycle_reg[1]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM2_issue_width_10_cycle_reg[2]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM2_issue_width_10_cycle_reg[3]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM2_issue_width_10_cycle_reg[4]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM3_issue_width_10_cycle_reg[0]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM3_issue_width_10_cycle_reg[1]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM3_issue_width_10_cycle_reg[2]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM3_issue_width_10_cycle_reg[3]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM3_issue_width_10_cycle_reg[4]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM4_issue_width_10_cycle_reg[0]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM4_issue_width_10_cycle_reg[1]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM4_issue_width_10_cycle_reg[2]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM4_issue_width_10_cycle_reg[3]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM4_issue_width_10_cycle_reg[4]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM5_issue_width_10_cycle_reg[0]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM5_issue_width_10_cycle_reg[1]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM5_issue_width_10_cycle_reg[2]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM5_issue_width_10_cycle_reg[3]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM5_issue_width_10_cycle_reg[4]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM6_issue_width_10_cycle_reg[0]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM6_issue_width_10_cycle_reg[1]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM6_issue_width_10_cycle_reg[2]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM6_issue_width_10_cycle_reg[3]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM6_issue_width_10_cycle_reg[4]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM7_issue_width_10_cycle_reg[0]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM7_issue_width_10_cycle_reg[1]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM7_issue_width_10_cycle_reg[2]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM7_issue_width_10_cycle_reg[3]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM7_issue_width_10_cycle_reg[4]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM8_issue_width_10_cycle_reg[0]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM8_issue_width_10_cycle_reg[1]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM8_issue_width_10_cycle_reg[2]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM8_issue_width_10_cycle_reg[3]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM8_issue_width_10_cycle_reg[4]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM9_issue_width_10_cycle_reg[0]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM9_issue_width_10_cycle_reg[1]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM9_issue_width_10_cycle_reg[2]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM9_issue_width_10_cycle_reg[3]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM9_issue_width_10_cycle_reg[4]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM10_issue_width_10_cycle_reg[0]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM10_issue_width_10_cycle_reg[1]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM10_issue_width_10_cycle_reg[2]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM10_issue_width_10_cycle_reg[3]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM10_issue_width_10_cycle_reg[4]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM11_issue_width_10_cycle_reg[0]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM11_issue_width_10_cycle_reg[1]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM11_issue_width_10_cycle_reg[2]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM11_issue_width_10_cycle_reg[3]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM11_issue_width_10_cycle_reg[4]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM12_issue_width_10_cycle_reg[0]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM12_issue_width_10_cycle_reg[1]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM12_issue_width_10_cycle_reg[2]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM12_issue_width_10_cycle_reg[3]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM12_issue_width_10_cycle_reg[4]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM13_issue_width_10_cycle_reg[0]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM13_issue_width_10_cycle_reg[1]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM13_issue_width_10_cycle_reg[2]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM13_issue_width_10_cycle_reg[3]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM13_issue_width_10_cycle_reg[4]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM14_issue_width_10_cycle_reg[0]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM14_issue_width_10_cycle_reg[1]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM14_issue_width_10_cycle_reg[2]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM14_issue_width_10_cycle_reg[3]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM14_issue_width_10_cycle_reg[4]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM15_issue_width_10_cycle_reg[0]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM15_issue_width_10_cycle_reg[1]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM15_issue_width_10_cycle_reg[2]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM15_issue_width_10_cycle_reg[3]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM15_issue_width_10_cycle_reg[4]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM16_issue_width_10_cycle_reg[0]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM16_issue_width_10_cycle_reg[1]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM16_issue_width_10_cycle_reg[2]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM16_issue_width_10_cycle_reg[3]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+DUT_controller/SM16_issue_width_10_cycle_reg[4]
+                          DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+clk_controller_reg        DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+counter_reg[1]            DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+counter_reg[2]            DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+counter_reg[3]            DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+counter_reg[4]            DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+counter_reg[5]            DFFQ_X1M_A9TR   sc9_cln40g_base_rvt_ff_typical_min_0p99v_m40c
+                                                          3.855600  n
+--------------------------------------------------------------------------------
+Total 215 cells                                           858.664802
+1
